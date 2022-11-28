@@ -1,0 +1,1 @@
+input = File.read([File.dirname(__FILE__), "input"].join("/"))
