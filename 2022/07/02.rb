@@ -54,4 +54,4 @@ end
 
 total_size = dirs['/']
 to_free = 30_000_000 - (70_000_000 - total_size)
-p dirs.values.sort.find{ |v| v > to_free }
+p dirs.values.sort.find { |v| v > to_free }
